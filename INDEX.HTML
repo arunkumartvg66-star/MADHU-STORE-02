@@ -2,25 +2,104 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>velvet vine</title><!-- font-awesome cdn link -->
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
-
-    <!-- EXTERNAL css file link -->
-    <link rel="stylesheet" href="styles.css">
+    <title>ShopEase | Online Store</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for Shopping Cart and Search Icons -->
+    <link rel="stylesheet" href="https://cloudflare.com">
 </head>
 <body>
-    <section id="header">
-        <a href="#"><img src="m22logo.jpeg" width="100" class="logo" alt=""></a>
-        <div>
-            <ul id="navbar">
-                <li><a class="active" href="index.html">Home</a></li>
-                <li><a href="shop.html">Shop</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li id="lg-bag"><a href="cart.html"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a></li>
-                <a href="#" id="close"><i class="far fa-times"></i></a>
-            </ul>
+
+    <!-- Header & Navigation -->
+    <header>
+        <div class="navbar">
+            <div class="logo"><a href="#">Shop<span>Ease</span></a></div>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-icons">
+                <a href="#"><i class="fas fa-search"></i></a>
+                <a href="#" class="cart-icon"><i class="fas fa-shopping-cart"></i><span>0</span></a>
+            </div>
         </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Upgrade Your Style</h1>
+            <p>Discover the latest trends with up to 50% off on premium collections.</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section class="products-section">
+        <h2>Featured Products</h2>
+        <div class="product-grid">
+            
+            <!-- Product Card 1 -->
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="https://unsplash.com" alt="Product 1">
+                </div>
+                <div class="product-info">
+                    <h3>Minimalist Watch</h3>
+                    <p class="price">$149.00 <span class="old-price">$199.00</span></p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Product Card 2 -->
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="https://unsplash.com" alt="Product 2">
+                </div>
+                <div class="product-info">
+                    <h3>Premium Sneakers</h3>
+                    <p class="price">$89.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Product Card 3 -->
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="https://unsplash.com" alt="Product 3">
+                </div>
+                <div class="product-info">
+                    <h3>Wireless Headphones</h3>
+                    <p class="price">$120.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Product Card 4 -->
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="https://unsplash.com" alt="Product 4">
+                </div>
+                <div class="product-info">
+                    <h3>Hydration Thermos</h3>
+                    <p class="price">$35.00 <span class="old-price">$45.00</span></p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2026 ShopEase. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
